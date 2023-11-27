@@ -10,8 +10,8 @@ const NavBar = () => {
         {/* left most space  logo*/}
         <div>
         <Link href="/">
-                <p>AMOC.</p>
-            </Link>
+                <p>AMOC.</p> 
+          </Link>
         </div>
 
         {/* middle space for nav */}
