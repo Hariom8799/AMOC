@@ -58,3 +58,74 @@ body,html{overflow-x: hidden;}
 }
 
 .swiper-pagination-bullet-active{background: #fff !important;}
+
+/* ********************************************************** */
+/* Footer CSS */
+/* ********************************************************** */
+
+.footerMain h1{
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 2rem;
+  color: #fff;
+}
+.footerMain .footerLogo{
+  background-color: #fff;
+}
+.footerMain .footerLogo h3{
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-bottom: 0px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-align: center;
+}
+.footerMain .footerLogo p{
+  font-size: 1rem;
+  line-height: 3rem;
+  font-weight: 500;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.footerMain .footerLogo ul li{
+  border: 1px solid #838383;
+  padding: 12px;
+  margin: 0px 5px;
+  background-color: #fff;
+}
+
+.footerMain .instaBorder{
+  border: 1px solid #838383;
+  padding: 1.5rem 1rem;
+  background-color: #fff;
+}
+
+.footerMain .instaBorder h3{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.footerMain .instaImgBox{
+  overflow: hidden;
+}
+
+.footerMain .footerInstaImg{
+  border: 1px solid #838383;
+  transform: scale(1);
+  transition: .2s ease-in-out;
+}
+
+.footerMain .instaImgBox:hover .footerInstaImg{
+  transform: scale(1.25);
+}
+
+.footerMain .copywrite{
+  font-size: 12px;
+  margin-top: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
