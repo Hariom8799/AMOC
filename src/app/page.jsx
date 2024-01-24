@@ -38,7 +38,7 @@ export default function Home() {
         
         <>
           <Carousel/>
-          <CardSection productData={productData}/>
+          {/* <CardSection productData={productData}/> */}
         </>
       ) :
        
