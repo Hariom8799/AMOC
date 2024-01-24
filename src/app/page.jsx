@@ -3,6 +3,7 @@
 import Loading from './Loading';
 import { useState , useEffect } from 'react';
 import HeroBanner from './components/HeroBanner';
+import Card from './components/Card';
 
 export default function Home() {
 
@@ -41,10 +42,14 @@ export default function Home() {
           <HeroBanner/>
 
           {/* Product card section */}
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-14 mx-5 md:px-0'> 
-            
+          <div className='w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-14 md:px-0'> 
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
           </div>
-          {/* <CardSection productData={productData}/> */}
         </>
       ) :
        
