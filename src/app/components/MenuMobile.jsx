@@ -71,31 +71,7 @@ const MenuMobile = ({ showCatMenu, setShowCatMenu, setMobileMenu }) => {
           })
         }
 
-        {/* <li>
-            <Link href="/">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link href="/">
-              Tote Bags
-            </Link>
-          </li>
-          <li>
-            <Link href="/products">
-              All Products
-            </Link>
-          </li>
-          <li>
-            <Link href="/about">
-              About Us
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact">
-              Contact Us
-            </Link>
-          </li> */}
+        
       </ul>
     </>
   )

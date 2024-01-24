@@ -1,14 +1,11 @@
+import Link from 'next/link'
 import React from 'react'
 
-const Card = ({item}) => {
+const Card = () => {
   return (
-    <div>
-        <h1>{item.title}</h1>
-        <p>{item.description}</p>
-        <img src={item.image} alt="" />
-        <br />
-        <br />
-    </div>
+    <Link href={"/product"}>
+        <img src="" alt="" />
+    </Link>
   )
 }
 

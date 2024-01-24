@@ -1,8 +1,8 @@
 'use client';
-import Carousel from './components/carousel2'
+
 import Loading from './Loading';
-import CardSection from './components/CardSection';
 import { useState , useEffect } from 'react';
+import HeroBanner from './components/HeroBanner';
 
 export default function Home() {
 
@@ -37,7 +37,13 @@ export default function Home() {
       (
         
         <>
-          <Carousel/>
+          {/* <Carousel2/> */}
+          <HeroBanner/>
+
+          {/* Product card section */}
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-14 mx-5 md:px-0'> 
+            
+          </div>
           {/* <CardSection productData={productData}/> */}
         </>
       ) :

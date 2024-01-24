@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-export default () => {
+export default function Carousel2 () {
     return (
         <div className='sliderWrapper mx-auto'>
         <Swiper
