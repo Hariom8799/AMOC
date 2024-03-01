@@ -3,7 +3,7 @@ import React from 'react'
 
 const Card = () => {
   return (
-    <Link href={"/product"} className='hover:scale-105 cursor-pointer bg-white trasnform duration-200 overflow-hidden '>
+    <Link href={"/product/1"} className='hover:scale-105 cursor-pointer bg-white trasnform duration-200 overflow-hidden '>
         <img src="/product-1.webp" alt="product img" />
         <div className='p-4 text-black/[0.9]'>
           <h2 className='text-lg font-medium'>Product Name</h2>
