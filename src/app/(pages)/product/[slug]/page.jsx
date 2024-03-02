@@ -5,11 +5,11 @@ import React from 'react'
 const productDetails = () => {
   return (
     <div className='w-full md:py-20'>
-      <div className='w-11/12 mx-auto flex flex-col lg:flex-row md:px-10 gap-[50px] lg:gap-[100px]'>
+      <div className='max-w-11/12 mx-auto flex flex-col lg:flex-row md:px-10 gap-[50px] lg:gap-[100px]'>
 
         {/* Left column start */}
           <div className='w-full md:w-auto mx-auto lg:mx-0 flex-[1.5] max-w-[500px] lg:max-w-full'>
-            left
+
             <ProductDetailCarousel/>
           </div>
         {/* Left column end */}
